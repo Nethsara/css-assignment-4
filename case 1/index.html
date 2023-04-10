@@ -1,4 +1,3 @@
-!
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,6 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      div {
+        position: relative;
+        left: -250px;
+        transition: transform 0.3s ease-in-out;
+        margin-bottom: 200px;
+        background-color: blueviolet;
+        color: white;
+        width: 300px;
+        height: 30px;
+      }
+
+      div:hover {
+        transform: translateX(250px);
+      }
+
+      h2 {
+        margin-top: 0;
+        margin-right: 140px;
+        display: inline-block;
+      }
+
+      i {
+        margin-right: 1px;
+        display: inline-block;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div>
+      <h2>Menu One</h2>
+      <i class="fa fa-star"></i>
+    </div>
+
+    <div>
+      <h2>Menu Two</h2>
+      <i class="fa fa-heart"></i>
+    </div>
+
+    <div>
+      <h2>Menu Three</h2>
+      <i class="fa fa-thumbs-up"></i>
+    </div>
+  </body>
 </html>
